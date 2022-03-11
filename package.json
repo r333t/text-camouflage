@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "auther": "R333T",
   "website": "https://www.at4re.net/",
+  "homepage": "https://r333t.github.io",
   "description": "A tool to camouflage text by R333T from AT4RE",
   "private": false,
   "dependencies": {
@@ -17,11 +18,13 @@
     "@types/react": "^16.14.24",
     "@types/react-dom": "^16.9.14",
     "framer-motion": "^4.1.17",
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "4.3.1",
     "react-scripts": "5.0.0",
+    "save-dev": "^0.0.1-security",
     "typescript": "^4.6.2",
     "web-vitals": "^0.2.4"
   },
@@ -29,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
