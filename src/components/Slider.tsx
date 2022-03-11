@@ -45,8 +45,7 @@ const ComplexitySlider: React.FC<ComplexitySliderProps> = ({
       </SliderTrack>
       <Tooltip
         hasArrow
-        bg="teal.500"
-        color="white"
+        colorScheme="blue"
         placement="top"
         isOpen={showTooltip}
         label={`${complexity}%`}
