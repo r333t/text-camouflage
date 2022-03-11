@@ -47,7 +47,6 @@ https://r333t.github.io/text-camouflage/
 
 
 8- Open source code
-
 https://github.com/r333t/text-camouflage
 
 
