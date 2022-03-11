@@ -26,7 +26,7 @@ const ComplexitySlider: React.FC<ComplexitySliderProps> = ({
       defaultValue={complexity}
       min={0}
       max={100}
-      colorScheme="teal"
+      colorScheme="blue"
       onChange={(v) => set_complexity(v)}
       onMouseEnter={() => setShowTooltip(true)}
       onMouseLeave={() => setShowTooltip(false)}

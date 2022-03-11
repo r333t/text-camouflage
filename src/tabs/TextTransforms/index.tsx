@@ -80,7 +80,7 @@ const TextTransforms: React.FC = () => {
         <Wrap>
           <Flex>
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_text_uppercase({
@@ -144,7 +144,7 @@ const TextTransforms: React.FC = () => {
           </Flex>
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_text_lowercase({
@@ -208,7 +208,7 @@ const TextTransforms: React.FC = () => {
           </Flex>
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_text_camelcase({
@@ -272,7 +272,7 @@ const TextTransforms: React.FC = () => {
           </Flex>
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_text_paramcase({
@@ -336,7 +336,7 @@ const TextTransforms: React.FC = () => {
           </Flex>
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_text_snakecase({
@@ -400,7 +400,7 @@ const TextTransforms: React.FC = () => {
           </Flex>
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_text_startcase({
@@ -465,7 +465,7 @@ const TextTransforms: React.FC = () => {
 
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_underscore_to_spaces({
@@ -532,7 +532,7 @@ const TextTransforms: React.FC = () => {
 
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_spaces_to_underscore({
@@ -599,7 +599,7 @@ const TextTransforms: React.FC = () => {
 
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_hyphen_to_spaces({
@@ -666,7 +666,7 @@ const TextTransforms: React.FC = () => {
 
           <Flex ml="3">
             <Button
-              bg="gray.900"
+              colorScheme="blue"
               borderRadius="3px 0 0 3px"
               onClick={async () => {
                 set_spaces_to_hyphen({
