@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "auther": "R333T",
   "website": "https://www.at4re.net/",
-  "homepage": "https://r333t.github.io",
+  "homepage": "https://r333t.github.io/text-camouflage",
   "description": "A tool to camouflage text by R333T from AT4RE",
   "private": false,
   "dependencies": {

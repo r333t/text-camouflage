@@ -40,14 +40,20 @@ export const App = () => {
             <Heading size="lg">Text Camouflage</Heading>
           </Flex>
           <Flex>
-            <img
-              style={{
-                width: "404px",
-                height: "80px",
-              }}
-              src="https://www.at4re.net/f/images/logo.png"
-              alt="AT4RE"
-            />
+            <a
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://www.at4re.net/f/"
+            >
+              <img
+                style={{
+                  width: "404px",
+                  height: "80px",
+                }}
+                src="https://www.at4re.net/f/images/logo.png"
+                alt="AT4RE"
+              />
+            </a>
           </Flex>
         </Flex>
         <Flex
