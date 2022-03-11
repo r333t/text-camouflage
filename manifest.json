@@ -1,0 +1,20 @@
+{
+  "short_name": "Text Camouflage",
+  "name": "A tool to camouflage text by R333T from AT4RE",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "404x80"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0074c2",
+  "background_color": "#ffffff"
+}
