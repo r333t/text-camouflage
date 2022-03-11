@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #181a1b;
+  color: #ddd;
+  font-family: "Roboto", "Cairo", sans-serif;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #0074c2;
+  border-radius: 30px;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #202324;
+  color: #aba499;
+}
