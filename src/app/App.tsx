@@ -111,7 +111,15 @@ export const App = () => {
           justifyContent="center"
         >
           <Flex>
-            v0.0.2 - All rights reserved to&nbsp;
+            <Link
+              color="brand.400"
+              rel="noreferrer noopener"
+              target="_blank"
+              href="https://github.com/r333t/text-camouflage"
+            >
+              Source code
+            </Link>
+            &nbsp; v0.0.2 - All rights reserved to&nbsp;
             <Link
               color="brand.500"
               rel="noreferrer noopener"
